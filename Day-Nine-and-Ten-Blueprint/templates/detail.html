@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://andybrewer.github.io/mvp/mvp.css" rel="stylesheet"></link>
+</head>
+
+<body>
+
+
+  <header>
+    <h1>{{title}}</h1>
+    <div>
+      {{points}} points | By {{author}} | <a href="{{url}}" target="_blank">{{url}}</a>
+    </div>
+  </header>
+  <main>
+
+  {% for a,b in comments %}
+  <div>
+    <strong>a</strong>
+    <p></p><p>b</p><p></p>
+  </div>
+  <hr>
+  {% endfor %} 
+
+  </main>
+</body>
+
+</html>
